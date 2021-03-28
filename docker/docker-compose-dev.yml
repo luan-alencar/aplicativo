@@ -1,0 +1,7 @@
+version: '2'
+services:
+  aplicativo-registry:
+    extends:
+      file: jhipster-registry.yml
+      service: jhipster-registry
+    container_name: aplicativo-jhipster-registry
