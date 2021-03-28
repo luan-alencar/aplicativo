@@ -1,7 +1,13 @@
 version: '2'
 services:
-  aplicativo-registry:
+  jhipster-registry:
     extends:
       file: jhipster-registry.yml
       service: jhipster-registry
     container_name: aplicativo-jhipster-registry
+
+  aplicativo-postgresql:
+    extends:
+      file: aplicativo-postgresql.yml
+      service: aplicativo-postgresql
+    container_name: aplicativo-postgresql

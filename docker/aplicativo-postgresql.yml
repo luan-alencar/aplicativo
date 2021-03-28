@@ -1,6 +1,6 @@
 version: '2'
 services:
-  aplicativo-registry:
+  aplicativo-postgresql:
     image: postgres:11.5
     environment:
       - POSTGRES_USER=aplicativo
