@@ -18,6 +18,6 @@ USER jhipster
 
 ENTRYPOINT ["./entrypoint.sh"]
 
-EXPOSE 8080 5701/upd
+EXPOSE 8081 5701/upd
 
 ADD *.jar app.jar

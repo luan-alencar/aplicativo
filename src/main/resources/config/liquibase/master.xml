@@ -4,6 +4,12 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
-    <include file="/config/liquibase/changelog/v00.0001_criacao_de_tabelas.xml"
-             relativeToChangelogFile="false"/>
+    <include file="/config/liquibase/changelog/v00.0001_tabela_usuario.xml" relativeToChangelogFile="false"/>
+    <include file="/config/liquibase/changelog/v00.0002_tabela_endereco.xml" relativeToChangelogFile="false"/>
+    <include file="/config/liquibase/changelog/v00.0003_tabela_categoria.xml" relativeToChangelogFile="false"/>
+    <include file="/config/liquibase/changelog/v00.0004_tabela_cidade.xml" relativeToChangelogFile="false"/>
+    <include file="/config/liquibase/changelog/v00.0005_tabela_estado.xml" relativeToChangelogFile="false"/>
+    <include file="/config/liquibase/changelog/v00.0006_tabela_pagamento.xml" relativeToChangelogFile="false"/>
+    <include file="/config/liquibase/changelog/v00.0007_tabela_pedido.xml" relativeToChangelogFile="false"/>
+    <include file="/config/liquibase/changelog/v00.0008_tabela_produto.xml" relativeToChangelogFile="false"/>
 </databaseChangeLog>
